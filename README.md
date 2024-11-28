@@ -24,6 +24,7 @@ $oldDirectory = $this->getParameter('kernel.project_dir') . '/public/'.$oldFolde
 $directory = $this->getParameter('kernel.project_dir') . '/public/'.$folderName;
 $message = $this->folderService->renameFolder($oldDirectory, $oldFolderName, $directory, $folderName);
 $this->addFlash('notice', $message);
+```
 3. The folder delet function
 ```php
 $oldFolderName = "old folder name";
