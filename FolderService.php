@@ -31,7 +31,7 @@ class FolderService
     {
         if ($this->filesystem->exists($oldPath) && !$this->filesystem->exists($path)) {
             $this->filesystem->rename($oldPath,$path);
-            return 'Folder renamed';
+            return 'folder ';
         }
     }
 
