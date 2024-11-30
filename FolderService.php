@@ -25,7 +25,7 @@ class FolderService
         }
     }
 
-    public function renameFolder ($oldPath, $OldFolderName, $path, $folderName)
+    public function renameFolder ($oldPath, $oldFolderName, $path, $folderName)
     {
         if ($this->filesystem->exists($oldPath) && !$this->filesystem->exists($path)) {
             $this->filesystem->rename($oldPath,$path);
