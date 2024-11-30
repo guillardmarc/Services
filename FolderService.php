@@ -3,8 +3,6 @@
 namespace App\Service;
 
 use Symfony\Component\Filesystem\Filesystem;
-use Symfony\Component\HttpFoundation\Session\SessionInterface;
-use Symfony\Component\Filesystem\Exception\IOExceptionInterface;
 
 class FolderService
 {    
